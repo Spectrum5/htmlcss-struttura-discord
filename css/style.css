@@ -4,3 +4,51 @@
     box-sizing: border-box;
 }
 
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 6px
+}
+
+/* <!-- ********** REGOLE GENERALI ********** --> */
+
+/* <!-- ********** DEBUG ********** --> */
+
+.row {
+    display: flex;
+}
+
+.debug header {
+    background-color: #add8e6;
+    min-height: 70px;
+}
+
+.debug .container  {
+    background-color: #daa520;
+    border: 2px dashed black;
+}
+
+.debug .container ul {
+    border-right: 2px dashed black;
+    border-left: 2px dashed black;
+}
+
+.container .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.row {
+    gap: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+header {
+    padding: 15px 0;
+}
