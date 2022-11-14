@@ -16,14 +16,15 @@ menu {
     padding: 6px
 }
 
+.row {
+    display: flex;
+}
 /* <!-- ********** REGOLE GENERALI ********** --> */
 
 /* <!-- ********** DEBUG ********** --> */
 
-.row {
-    display: flex;
-}
 
+/* header */
 .debug header {
     background-color: #add8e6;
     min-height: 70px;
@@ -52,3 +53,21 @@ ul.row {
 header {
     padding: 15px 0;
 }
+
+/* main prima section*/
+
+.container.first-main {
+    max-width: 700px;
+}
+
+.debug .container-main {
+    min-height: 300px;
+    max-width: 700px;
+    background-color: #ee82ee;
+}
+
+.first-main {
+    background-color: #00008b;
+    padding: 50px;
+}
+
