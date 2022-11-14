@@ -10,6 +10,7 @@ menu {
     list-style: none;
 }
 
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -71,3 +72,41 @@ header {
     padding: 50px;
 }
 
+/* main seconda section */
+
+.container-section .column-lightblue {
+    background-color: #1e90ff;
+    min-width: 60px;
+    border: 2px dashed black;
+    flex-basis: 60%;
+}
+
+.debug .column-yellow {
+    background-color: #FFC0CB;
+    width: 40px;
+    border: 2px dashed black;
+    flex-basis: 40%;
+}
+
+.debug main div>.row {
+    min-height: 400px;
+}
+
+.container-main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.container-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 0;
+}
