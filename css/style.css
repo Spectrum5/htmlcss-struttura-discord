@@ -118,6 +118,7 @@ section {
 .container-section .column-green {
     background-color: #228b22;
     min-height: 800px;
+    border: 2px dashed black;
 }
 
 /* FOOTER */
@@ -145,7 +146,7 @@ section {
 }
 
 .debug .footer-container-2 .row {
-    min-height: 100px;
+    min-height: 80px;
     border: none;
     background-color: #7fffd4;
 }
