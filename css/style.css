@@ -83,7 +83,7 @@ header {
 
 .debug .column-yellow {
     background-color: #FFC0CB;
-    width: 40px;
+    min-width: 40px;
     border: 2px dashed black;
     flex-basis: 40%;
 }
@@ -109,4 +109,8 @@ header {
 
 section {
     padding: 50px 0;
+}
+
+.debug main>:nth-child(2n + 3) {
+    background-color: #d3d3d3;
 }
