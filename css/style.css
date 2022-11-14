@@ -114,3 +114,8 @@ section {
 .debug main>:nth-child(2n + 3) {
     background-color: #d3d3d3;
 }
+
+.container-section .column-green {
+    background-color: #228b22;
+    min-height: 800px;
+}
