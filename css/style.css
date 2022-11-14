@@ -119,3 +119,14 @@ section {
     background-color: #228b22;
     min-height: 800px;
 }
+
+/* FOOTER */
+
+.debug footer {
+    min-height: 100px;
+    background-color: #23272a;
+}
+
+.debug footer .footer-container .row {
+    min-height: 600px;
+}
